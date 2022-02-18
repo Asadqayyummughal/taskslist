@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks Info</title>
+    <link rel="stylesheet" href="./css/index.css">
+     <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+          <div class="div-1">
+        <h1>Document</h1>
+        <form action="" id="task-form">
+            <input type="text" placeholder='New Task' id="takeinput"><br>
+            <button id="addbtn" onclick="addTask(event)">Add task</button>
+           <hr>
+        </form>
+
+          </div>
+          <div class="div-2">
+              <h2>Tasks</h2>
+              <input type="text" id="filter-input" placeholder="Filter Task">
+              <div class="collection_div">
+                  <ul id="taskecollection">
+
+                  </ul>
+
+              </div>
+          </div>
+      </div>
+      <button id="clearbtn" onclick="clearAlltask()">CLEAR TASKS</button>
+    </div>
+
+    
+</body>
+</html>
